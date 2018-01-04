@@ -17,6 +17,14 @@ body {
 /* font-family: 'Montserrat', sans-serif; */
 }
 
+.primary {
+  color: #066e8a;
+}
+
+.secondary {
+  color: #d6c714;
+}
+
 .reveal {
   font-family: 'Bungee', cursive;
   font-size: 42px;
@@ -46,14 +54,20 @@ body {
 .reveal h3,
 .reveal h4,
 .reveal h5,
-.reveal h6 {
+.reveal h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
   margin: 0 0 20px 0;
   color: #fff;
   font-weight: 600;
   line-height: 1.2;
   letter-spacing: normal;
   text-transform: uppercase;
-  text-shadow: 8px 8px 0px #066e8a;
+  text-shadow: 8px 8px 0px #09323d;
   word-wrap: break-word; }
 
 .reveal h1 {
@@ -67,10 +81,6 @@ body {
 
 .reveal h4 {
   font-size: 1em; }
-
-.reveal h1 {
-  text-shadow: 8px 8px 0px white; 
-  color: black; }
 
 .whiteshadow {
   text-shadow: 8px 8px 0px white; 
