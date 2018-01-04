@@ -44,8 +44,20 @@ body {
   text-shadow: 8px 8px 0px #d6c714 !important;
 }
 
+.highlight {
+  color: #d6c714 !important;
+}
+
+.ul-gaps li {
+  margin: 2em 0;
+}
+
 .primary .highlight {
-  color: #971640;
+  color: #971640 !important;
+}
+
+.primary p {
+  color: #066e8a !important;
 }
 
 .reveal {
@@ -142,6 +154,9 @@ body {
 
 .reveal ul {
   list-style-type: disc; }
+
+.fa-ul {
+  list-style-type: none !important; }
 
 .reveal ul ul {
   list-style-type: square; }
