@@ -17,12 +17,35 @@ body {
 /* font-family: 'Montserrat', sans-serif; */
 }
 
-.primary {
-  color: #066e8a;
+#left {
+  left:-8.33%;
+  text-align: left;
+  float: left;
+  width:50%;
+  z-index:-10;
 }
 
-.secondary {
-  color: #d6c714;
+#right {
+  left:31.25%;
+  top: 75px;
+  float: right;
+  text-align: right;
+  z-index:-10;
+  width:50%;
+}
+
+.primary h1, 
+.primary h2, 
+.primary h3, 
+.primary h4, 
+.primary h5, 
+.primary h6 {
+  color: #066e8a !important;
+  text-shadow: 8px 8px 0px #d6c714 !important;
+}
+
+.primary .highlight {
+  color: #971640;
 }
 
 .reveal {
